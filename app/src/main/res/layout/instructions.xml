@@ -13,7 +13,8 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/instruction"/>
+        android:id="@+id/instruction"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,21 +24,27 @@
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/instruction"
-        android:id="@+id/IT"/>
+        android:id="@+id/IT"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:text="Begin : 3*3 Grid"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/IT"
-        android:onClick="threeByThree"/>
+        android:onClick="threeByThree"
+        android:background="@drawable/background"
+        android:textColor="#fff"/>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:text="Begin : 5*5 Grid"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/IT"
-        android:layout_marginTop="45dp"
-        android:onClick="fiveByFive"/>
+        android:layout_marginTop="55dp"
+        android:onClick="fiveByFive"
+        android:background="@drawable/background"
+        android:textColor="#fff"/>
 </RelativeLayout>

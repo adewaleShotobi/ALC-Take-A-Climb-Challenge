@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">TicTacToe</string>
-    <string name="instruction_text"> into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</string>
-    <string name="congrats">CONGRATULATIONS!
-YOU WON!!</string>
+    <string name="instruction_text">Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid or 5*5 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game</string>
+    <string name="congrats">CONGRATULATIONS! YOU WON!!</string>
+    <string name="welcome">Welcome to TicTacToe!</string>
 </resources>
